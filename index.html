@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="titulo">
+            <h1>Weather Search</h1>
+        </div>
+        <div class="container-input">
+            <input type="text" placeholder="Example: Miami" id="seach-input">
+            <button id="buttonSearch">Search</button>
+        </div>
+        <div class="card-weather">
+            <h2 id="titulo-card"></h2>
+            <img id="image-weather-card">
+            <div><span id="span-title">Pressure: </span> <span id="pressure" class="data"></span></div>
+            <div><span id="span-title">Temperature: </span> <span id="temperature-card" class="data"></span></div>
+            <div><span id="span-title">Temperature Max: </span> <span id="temperature-max" class="data"></span>
+            </div>
+            <div><span id="span-title">Temperature Min:</span> <span id="temperature-min" class="data"></span></div>
+            <div><span id="span-title">Humidity: </span><span id="humidity-card" class="data"></span></div>
+            <div><span id="span-title">Description: </span><span id="descripcion-card" class="data"></span></div>
+            <div><span id="span-title">Coords: </span><span id="coord" class="data"></span></div>
+        </div>
+
+        <span id="error-h3"></span>
+
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
