@@ -62,7 +62,7 @@ function mostrarclima(data) {
     temperatureMin.textContent = `${data.main.temp_min}`
     humidity.textContent = `${data.main.humidity}`;
     pressure.textContent = `${data.main.pressure}`;
-    coords.textContent = `${data.coord.lat}, Lon: ${data.coord.lon}`
+    coords.textContent = `Lat: ${data.coord.lat}, Lon: ${data.coord.lon}`
     description.textContent = `${data.weather[0].description}`;
 
     const iconCode = data.weather[0].icon
